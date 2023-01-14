@@ -24,10 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             navVC.viewControllers.first?.navigationItem.largeTitleDisplayMode = .always
             window.rootViewController = navVC
         }
-        window.rootViewController = TabBarViewController()
         window.makeKeyAndVisible()
         self.window = window
-        
+                
         return true
     }
 

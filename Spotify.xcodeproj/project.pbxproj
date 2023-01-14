@@ -29,6 +29,7 @@
 		CCF86A6529703988006A33C4 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF86A6429703988006A33C4 /* AudioTrack.swift */; };
 		CCF86A6729703990006A33C4 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF86A6629703990006A33C4 /* Artist.swift */; };
 		CCF86A692970399B006A33C4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF86A682970399B006A33C4 /* UserProfile.swift */; };
+		CCF86A6B2972F5E2006A33C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF86A6A2972F5E2006A33C4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		CCF86A6429703988006A33C4 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		CCF86A6629703990006A33C4 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		CCF86A682970399B006A33C4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		CCF86A6A2972F5E2006A33C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				CCF86A292970323C006A33C4 /* AppDelegate.swift */,
 				CCF86A2B2970323C006A33C4 /* SceneDelegate.swift */,
 				CCF86A322970323D006A33C4 /* Assets.xcassets */,
+				CCF86A6A2972F5E2006A33C4 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				CCF86A4E2970389D006A33C4 /* AuthViewController.swift in Sources */,
 				CCF86A48297037E5006A33C4 /* LibraryViewController.swift in Sources */,
 				CCF86A692970399B006A33C4 /* UserProfile.swift in Sources */,
+				CCF86A6B2972F5E2006A33C4 /* Extensions.swift in Sources */,
 				CCF86A4A29703830006A33C4 /* TabBarViewController.swift in Sources */,
 				CCF86A6729703990006A33C4 /* Artist.swift in Sources */,
 				CCF86A58297038D6006A33C4 /* PlaylistViewController.swift in Sources */,
