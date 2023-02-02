@@ -70,7 +70,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         imageView.sd_setImage(with: url)
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = imageSize/2
-        
+        headerView.addSubview(imageView)
         tableView.tableHeaderView = headerView
     }
     
