@@ -11,6 +11,10 @@
 		CC73D88F2984146A001D31A9 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73D88E2984146A001D31A9 /* SettingsModel.swift */; };
 		CC9170A12988112B00021464 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CC9170A02988112B00021464 /* SDWebImage */; };
 		CC9170A32988112B00021464 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC9170A22988112B00021464 /* SDWebImageMapKit */; };
+		CC9170A5298BE40500021464 /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9170A4298BE40500021464 /* NewReleasesResponse.swift */; };
+		CC9170A7298BE4D900021464 /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9170A6298BE4D900021464 /* APIImage.swift */; };
+		CC9170AB298BFD2200021464 /* FeaturedPlaylistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9170AA298BFD2200021464 /* FeaturedPlaylistsResponse.swift */; };
+		CC9170AD298C0C2C00021464 /* RecommendedGenresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9170AC298C0C2C00021464 /* RecommendedGenresResponse.swift */; };
 		CCF86A2A2970323C006A33C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF86A292970323C006A33C4 /* AppDelegate.swift */; };
 		CCF86A2C2970323C006A33C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF86A2B2970323C006A33C4 /* SceneDelegate.swift */; };
 		CCF86A2E2970323C006A33C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF86A2D2970323C006A33C4 /* HomeViewController.swift */; };
@@ -39,6 +43,10 @@
 /* Begin PBXFileReference section */
 		CC139D152976F00600BB5929 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		CC73D88E2984146A001D31A9 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		CC9170A4298BE40500021464 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
+		CC9170A6298BE4D900021464 /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
+		CC9170AA298BFD2200021464 /* FeaturedPlaylistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistsResponse.swift; sourceTree = "<group>"; };
+		CC9170AC298C0C2C00021464 /* RecommendedGenresResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenresResponse.swift; sourceTree = "<group>"; };
 		CCF86A262970323C006A33C4 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF86A292970323C006A33C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF86A2B2970323C006A33C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +150,10 @@
 				CCF86A682970399B006A33C4 /* UserProfile.swift */,
 				CC139D152976F00600BB5929 /* AuthResponse.swift */,
 				CC73D88E2984146A001D31A9 /* SettingsModel.swift */,
+				CC9170A4298BE40500021464 /* NewReleasesResponse.swift */,
+				CC9170A6298BE4D900021464 /* APIImage.swift */,
+				CC9170AA298BFD2200021464 /* FeaturedPlaylistsResponse.swift */,
+				CC9170AC298C0C2C00021464 /* RecommendedGenresResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -278,6 +290,8 @@
 				CCF86A2E2970323C006A33C4 /* HomeViewController.swift in Sources */,
 				CCF86A612970395E006A33C4 /* HapticsManager.swift in Sources */,
 				CC139D162976F00600BB5929 /* AuthResponse.swift in Sources */,
+				CC9170A5298BE40500021464 /* NewReleasesResponse.swift in Sources */,
+				CC9170A7298BE4D900021464 /* APIImage.swift in Sources */,
 				CCF86A6529703988006A33C4 /* AudioTrack.swift in Sources */,
 				CCF86A2A2970323C006A33C4 /* AppDelegate.swift in Sources */,
 				CCF86A4E2970389D006A33C4 /* AuthViewController.swift in Sources */,
@@ -291,7 +305,9 @@
 				CCF86A2C2970323C006A33C4 /* SceneDelegate.swift in Sources */,
 				CCF86A56297038C6006A33C4 /* PlayerViewController.swift in Sources */,
 				CCF86A5F29703942006A33C4 /* APICaller.swift in Sources */,
+				CC9170AB298BFD2200021464 /* FeaturedPlaylistsResponse.swift in Sources */,
 				CCF86A52297038B1006A33C4 /* SettingsViewController.swift in Sources */,
+				CC9170AD298C0C2C00021464 /* RecommendedGenresResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
