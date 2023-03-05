@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CC139D162976F00600BB5929 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC139D152976F00600BB5929 /* AuthResponse.swift */; };
+		CC64E58C29B52D31001FD053 /* NewReleaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64E58B29B52D31001FD053 /* NewReleaseCollectionViewCell.swift */; };
+		CC64E58E29B52D5F001FD053 /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64E58D29B52D5F001FD053 /* FeaturedPlaylistCollectionViewCell.swift */; };
+		CC64E59029B52D9C001FD053 /* RecommendedTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64E58F29B52D9C001FD053 /* RecommendedTrackCollectionViewCell.swift */; };
 		CC73D88F2984146A001D31A9 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73D88E2984146A001D31A9 /* SettingsModel.swift */; };
 		CC9170A12988112B00021464 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CC9170A02988112B00021464 /* SDWebImage */; };
 		CC9170A32988112B00021464 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CC9170A22988112B00021464 /* SDWebImageMapKit */; };
@@ -43,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		CC139D152976F00600BB5929 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		CC64E58B29B52D31001FD053 /* NewReleaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC64E58D29B52D5F001FD053 /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC64E58F29B52D9C001FD053 /* RecommendedTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCollectionViewCell.swift; sourceTree = "<group>"; };
 		CC73D88E2984146A001D31A9 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		CC9170A4298BE40500021464 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
 		CC9170A6298BE4D900021464 /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
@@ -89,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC64E58A29B52CFE001FD053 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				CC64E58B29B52D31001FD053 /* NewReleaseCollectionViewCell.swift */,
+				CC64E58D29B52D5F001FD053 /* FeaturedPlaylistCollectionViewCell.swift */,
+				CC64E58F29B52D9C001FD053 /* RecommendedTrackCollectionViewCell.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
 		CCF86A1D2970323C006A33C4 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +154,7 @@
 		CCF86A3F29703513006A33C4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC64E58A29B52CFE001FD053 /* Browse */,
 				CCF86A342970323D006A33C4 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -286,11 +303,13 @@
 			files = (
 				CCF86A46297037D9006A33C4 /* SearchViewController.swift in Sources */,
 				CCF86A632970397D006A33C4 /* Playlist.swift in Sources */,
+				CC64E58E29B52D5F001FD053 /* FeaturedPlaylistCollectionViewCell.swift in Sources */,
 				CCF86A5D29703938006A33C4 /* AuthManager.swift in Sources */,
 				CCF86A5A297038F1006A33C4 /* SearchResultsViewController.swift in Sources */,
 				CCF86A50297038A8006A33C4 /* WelcomeViewController.swift in Sources */,
 				CCF86A54297038BD006A33C4 /* ProfileViewController.swift in Sources */,
 				CCF86A2E2970323C006A33C4 /* HomeViewController.swift in Sources */,
+				CC64E59029B52D9C001FD053 /* RecommendedTrackCollectionViewCell.swift in Sources */,
 				CCF86A612970395E006A33C4 /* HapticsManager.swift in Sources */,
 				CC139D162976F00600BB5929 /* AuthResponse.swift in Sources */,
 				CC9170A5298BE40500021464 /* NewReleasesResponse.swift in Sources */,
@@ -298,6 +317,7 @@
 				CC9170AF29A119C800021464 /* RecommendationsResponse.swift in Sources */,
 				CCF86A6529703988006A33C4 /* AudioTrack.swift in Sources */,
 				CCF86A2A2970323C006A33C4 /* AppDelegate.swift in Sources */,
+				CC64E58C29B52D31001FD053 /* NewReleaseCollectionViewCell.swift in Sources */,
 				CCF86A4E2970389D006A33C4 /* AuthViewController.swift in Sources */,
 				CC73D88F2984146A001D31A9 /* SettingsModel.swift in Sources */,
 				CCF86A48297037E5006A33C4 /* LibraryViewController.swift in Sources */,
